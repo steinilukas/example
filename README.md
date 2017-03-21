@@ -33,3 +33,6 @@ Das ist ein weiteres kleines Beispielprojekt analog zum Tutorium. Versuchen Sie 
 
 Glückwunsch, schon wieder ein Beispiel geschafft!
 
+# Zusatzaufgabe
+Erstellen Sie nun ein eigenes Repository ("Project"), fügen Sie eine Datei hinzu, und lassen Sie eine/n Freund/in dieses forken, einen branch erstellen, eine Änderung vornehmen, und einen merge request zu Ihnen erstellen.
+
