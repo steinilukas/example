@@ -1,38 +1,30 @@
 # Beispielprojekt
 
-Das ist ein weiteres kleines Beispielprojekt analog zum Tutorium. Versuchen Sie die Klasse `Bug` (`src/main/java/Bug.java`) so auszubessern, dass die Tests in `BugTests` (`src/test/java/BugTests.java`) korrekt durchlaufen.
+Das ist ein weiteres kleines Beispielprojekt analog zum [Tutorium](https://github.com/hsro-wif-prg2/tutorial).
+Versuchen Sie die Klasse `Bug` (`src/main/java/Bug.java`) so auszubessern, dass die Tests in `BugTests` (`src/test/java/BugTests.java`) korrekt durchlaufen.
 
-1. Erstellen Sie wieder einen persönlichen `fork` des Projekts auf https://inf-git.fh-rosenheim.de/
+1. Erstellen Sie wieder einen persönlichen Fork des Projekts.
 
-2. Klonen Sie das Projekt lokal, in dem Sie das Projekt in IntelliJ von Git importieren, oder "per Hand" in der Konsole:
-    ```
-    $ git clone htps://inf-git.fh-rosenheim.de/<sINFmamuster>/example.git
-    ```
+2. Klonen Sie das Projekt lokal, in dem Sie das Projekt in IntelliJ von Git importieren, oder "per Hand" in der Konsole: `git clone htps://github.com/sikoried/example.git`
 
-3. Erstellen Sie einen lokalen `branch` `loesung` (Name flexibel!), entweder in IntelliJ (Git Schaltfläche rechts unten -> "+ Create Branch") oder in der Konsole (Schaltfläche links unten: "Console"/"Konsole") mit
-    ```
-    $ git checkout -b loesung
-    ```
+3. Erstellen Sie einen lokalen Branch `loesung` (oder einem anderen Namen Ihrer Wahl), entweder in IntelliJ (Git Schaltfläche rechts unten -> "+ Create Branch") oder in der Konsole (Schaltfläche links unten: "Console"/"Konsole") `git checkout -b loesung`
 
-4. Finden und beheben Sie den/die Fehler. Tests werden mit den kleinen grünen Playschaltern links neben dem Editorfeld gestartet (oder mit Rechtsklick auf der Klasse).
+4. Finden und beheben Sie den bzw. die Fehler.
+	Tests werden mit den kleinen grünen Playschaltern links neben dem Editorfeld gestartet (oder mit Rechtsklick auf der Klasse).
 
-5. Fügen Sie die geänderte Datei `Bug.java` dem Stagingbereich hinzu, im IntelliJ mit Rechtsklick -> Git -> Add, oder inder Konsole mit
-    ```
-    $ git add src/main/java/Bug.java
-    ```
+5. Fügen Sie die geänderte Datei `Bug.java` Ihrem Commit hinzu, im IntelliJ mit Rechtsklick -> Git -> Add, oder in der Konsole mit `git add src/main/java/Bug.java`
 
 6. Committen und pushen Sie die Änderungen, entweder via VCS -> Commit Changes -> Commit and Push, oder in der Konsole mit
-    ```
-    $ git commit -m "Ihre Commit-Nachricht"
-    $ git push -u origin loesung
-    ```
+	```
+	git commit -m "Ihre Commit-Nachricht"
+	git push -u origin loesung
+	```
 
-7. Verifizieren Sie unter https://inf-git.fh-rosenheim.de in Ihrem Repository unter "Pipelines" oder "Activity", dass der Testcase auch auf dem Server durchläuft.
-
-8. Erstellen Sie einen _merge request_ von Ihrem branch `loesung` zu https://inf-git.fh-rosenheim.de/wif-prg2/example (dem originalem Repository).
+7. Erstellen Sie einen _pull request_ von Ihrem Branch `loesung` zum `master` Branch.
 
 Glückwunsch, schon wieder ein Beispiel geschafft!
 
-# Zusatzaufgabe
-Erstellen Sie nun ein eigenes Repository ("Project"), fügen Sie eine Datei hinzu, und lassen Sie eine/n Freund/in dieses forken, einen branch erstellen, eine Änderung vornehmen, und einen merge request zu Ihnen erstellen.
 
+# Zusatzaufgabe
+
+Erstellen Sie nun ein eigenes Repository, fügen Sie eine Datei hinzu, und lassen Sie eine/n Freund/in dieses forken, einen Branch erstellen, eine Änderung vornehmen, und einen Pull Request zu Ihnen erstellen.
