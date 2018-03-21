@@ -8,7 +8,7 @@ public class BugTests {
 		// actual minimum: 1
 		int[] a = {1, 2, 3, 4, 5, 6};
 
-		assertEquals(Bug.minimum(a), 1);
+		assertEquals(1, Bug.minimum(a));
 	}
 
 	@Test
