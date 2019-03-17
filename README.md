@@ -1,6 +1,6 @@
 # Beispielprojekt
 
-Dies ist ein weiteres kleines Beispielprojekt analog zum [Tutorium](https://github.com/hsro-wif-prg2/tutorial).
+Dies ist ein weiteres kleines Beispielprojekt analog zum [Tutorium](https://github.com/hsro-wif-oop/tutorial).
 Versuchen Sie die Klasse `Bug` (`src/main/java/Bug.java`) so auszubessern, dass die Tests in `BugTests` (`src/test/java/BugTests.java`) korrekt durchlaufen.
 
 1. Erstellen Sie wieder einen persönlichen Fork des Projekts.
